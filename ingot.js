@@ -22,7 +22,7 @@ document.documentElement.innerHTML = `<html><head><link rel="icon" href="data:im
 <body ` + isPageDev() + `>
 <div class="nav">
 <div class="nav-left">
-<div class="nav-title">Ingot</div>
+<div class="nav-title">Galactic</div>
 <div class="nav-right">
 <div class="nav-dev">Developer mode</div>
 <div ` + isButtonDev() + ` class="item-toggle item-toggle-dev" id="toggle" onclick="toggle(this);devMode()" onmousedown="togglePress(this, 'down')" onmouseup="togglePress(this, 'up')">
